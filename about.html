@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles-new.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="container mx-auto py-4">
+            <ul class="nav-items text-xl">
+                <li class="logo">
+                    <a href="/"><img src="/img/logo.png" alt="logo"></a>
+                </li>
+                <li class="nav-item"><a href="/about.html">About</a></li>
+                <li class="nav-item"><a href="">Contact Us</a></li>
+                <li class="nav-item"><button class="border-2 px-2 py-1 border-gray-700 rounded shadow hover:shadow-md hover:bg-slate-100">Get Started</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container mx-auto py-4">
+        <div class="grid lg:grid-cols-2 items-center content-center">
+            <div>
+                <h1 class="font-bold text-5xl">About Us</h1>
+                <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam harum magni ratione officia accusantium, nemo quos sapiente delectus animi omnis accusamus magnam libero laborum! Nisi natus hic iste minus nihil!</p>
+                <button class="learn-more-btn text-xl bg-fuchsia-600 py-2 px-4 rounded shadow mt-4 text-slate-50 hover:bg-fuchsia-700 hover:text-slate-70">Follow us</button>
+            </div>
+            <div>
+                <img src="/img/About us page-amico.svg" alt="">
+            </div>
+        </div>
+        
+        <div class="shadow rounded mt-8">
+            <div class="grid lg:grid-cols-2 gap-4">
+                <div class="flex items-center px-8 flex-col lg:flex-row">
+                    <img src="/img/2289_SkVNQSBGQU1PIDEwMjgtMTIy.jpg" alt="" width="150">
+                    <div>
+                        <p class="text-xl">Шокиров Мухсин</p>
+                        <p class="text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis asperiores libero quis ut vel reprehenderit optio sunt et illo, placeat qui facilis sequi autem laboriosam, accusantium facere quaerat ex animi.</p>
+                        <button class="learn-more-btn text-base bg-orange-600 py-2 px-4 rounded shadow mt-4 text-slate-50 hover:bg-orange-700 hover:text-slate-70">Связаться</button>
+                    </div>
+                </div>
+                <div class="flex content-center items-center py-4">
+                    <iframe class="w-full min-h-full" height="350" src="https://www.youtube.com/embed/VCPGMjCW0is?si=NMyeDdBGiFObkJOP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row flex justify-between">
+                <div class="col-md-3">
+                    <img src="img/logo.png" alt="ms" class="footer-logo w-48">
+                    <p><strong>IT-Platform =></strong> создатель сайт Шокиров Мухсин и отсуда вы можете найти много
+                        программы и помощь как они работают их функции и тд.</p>
+                </div>
+                <div class="col-md-3">
+                    <h1>Быстрый Контакт</h1>
+                    <p><i class="fa fa-phone-square"></i> +7 996 938 9153</p>
+                    <p><i class="fa fa-envelope"></i> it.platform@mail.ru</p>
+                    <p><i class="fa fa-home"></i> ул. Вершинина 39 кв. 534</p>
+                    <p class="city">Россия, Томск</p>
+                </div>
+                <div class="col-md-3">
+                    <h1>Подпишитесь на нас в</h1>
+                    <p><i class="fa fa-facebook-official"></i> Facebook</p>
+                    <p><i class="fa fa-youtube-play"></i> YouTube</p>
+                    <p><i class="fa fa-linkedin"></i> Linkedin</p>
+                    <p><i class="fa fa-twitter"></i> Twitter</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

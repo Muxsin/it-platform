@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Iceland', cursive;
+}
+
+/* nav, main {
+    padding: 12px 24px;
+} */
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    list-style: none;
+    margin: 0;
+}
+
+.logo {
+    min-width: 150px;
+    margin-right: auto;
+}
+
+.header-description {
+    align-items: center;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    background-color: rgb(172, 209, 236);
+}
+
+.header-description .title {
+    margin: 12px 0;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.header-description .learn-more-btn {
+    padding: 8px 14px;
+    border-radius: 4px;
+    border: none;
+    margin: 18px 0;
+    background-color: #ffc527e5;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.header-description .learn-more-btn:hover {
+    background-color: #fecd46;
+}
+
+.categories-content .title {
+    background-color: #ff93edbf;
+    width: fit-content;
+    padding: 4px 24px;
+    margin-bottom: 24px;
+    border-radius: 4px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.categories-item {
+    margin: 8px 0;
+    padding: 32px 24px;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    border-radius: 6px;
+    gap: 12px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.categories-item:first-child {
+    background-color: #27bdac;
+}
+
+.categories-item:first-child:hover {
+    background-color: #2ead9e;
+}
+
+.categories-item .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #fff;
+    border-radius: 3px;
+    min-width: 120px;
+    width: 120px;
+}
+
+#footer {
+    /* margin-top: 80px; */
+    padding: 100px;
+    background-color: rgb(172, 209, 236);
+}
+
+.footer-logo {
+    width: 80px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+#footer h1 {
+    font-weight: 600;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#footer p {
+    font-size: 12px;
+    text-align: left;
+}
+
+#footer .fa-facebook-official {
+    color: darkblue;
+}
+
+#footer .fa-linkedin {
+    color: darkblue;
+}
+
+#footer .fa-twitter {
+    color: darkblue;
+}
+
+#footer .fa-youtube-play {
+    color: red;
+}
+
+#footer h1 {
+    margin: 12px 0;
+}
+
+#footer p {
+    font-size: 14px;
+}
+
+.carel-draw-logo {
+    min-width: 100px;
+    width: 100px;
+}
+
+/*------------HELP----------------*/
+#help {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.help {
+  padding: 20px;
+  padding-top: 0;
+}
+
+.help h1 {
+  color: green;
+  text-align: center;
+  font-weight: 600;
+}
+
+.help-tool {
+  padding: 20px;
+  padding-top: 0;
+}
+
+.help-tool p {
+  padding-left: 40px;
+  text-align: justify;
+}
+
+.help-tool img {
+  text-align: center;
+}
+
+.shape {
+  height: 300px;
+  margin-top: 30px;
+}
+
+.shape-tx {
+  margin-top: 30px;
+}
+
+.tools {
+  height: 1000px;
+}
+
+.pick {
+  padding: 10px;
+  margin-left: 4px;
+  margin-right: 4px;
+  border-radius: 4px;
+  background: linear-gradient(to right, #11998e, #38ef7d);
+}
+
+.pick h3 {
+  padding-left: 10px;
+  font-weight: 600;
+}
+
+.col-md-9 {
+  margin-top: 20px;
+}
+
+.col-md-3 {
+  margin-top: 20px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .title {
+        text-align: center;
+    }
+
+    .h-desc {
+        text-align: center;
+    }
+
+    .btn-learn {
+        padding-top: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-description {
+        border-radius: 0px;
+    }
+
+    .header-description .title {
+        font-size: 38px;
+    }
+
+    .header-description .learn-more-btn {
+        margin: 4px 0;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    #footer {
+        padding: 50px;
+    }
+
+    .help {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .help-tool {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .help-tool p {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

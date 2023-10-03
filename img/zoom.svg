@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="48px" height="48px" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 4800 4800"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .svgFillBaseColor {fill:#000000}
+    .svgFillAccent1   {fill:#FF0000}
+    .svgFillAccent2   {fill:#FF6600}
+    .svgFillAccent3   {fill:#06A9F4}
+    .svgFillAccent4   {fill:#009933}
+    .svgFillAccent5   {fill:#FFFF00}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="svgFillBaseColor" fill-rule="nonzero" d="M1949 1c1077,0 1950,873 1950,1950 0,427 -138,822 -371,1143l1272 1284 -424 422 -1269 -1281c-324,239 -724,381 -1158,381 -1076,0 -1949,-873 -1949,-1949 0,-1077 873,-1950 1949,-1950zm1167 783c-299,-298 -711,-483 -1167,-483 -455,0 -868,185 -1166,483 -298,299 -483,711 -483,1167 0,455 185,868 483,1166 298,298 711,483 1166,483 456,0 868,-185 1167,-483 298,-298 483,-711 483,-1166 0,-456 -185,-868 -483,-1167z"/>
+  <text x="-4578" y="7120"  class="svgFillBaseColor" fill-rule="nonzero" font-weight="normal" font-size="1066.66px" font-family="Humanst521 BT">Engines\CdrPrn\RcBin\prvbtn_51.ico</text>
+ </g>
+</svg>
